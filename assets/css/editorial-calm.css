@@ -1,0 +1,94 @@
+/* ============================================================
+   editorial-calm.css — RESTRAINT LAYER (preview)
+   Loaded on top of editorial.css via page.editorial_extra_css.
+   Goal: keep the Newsreader + vermillion identity, but remove the
+   "three design languages at once" messiness:
+     1. drop the 4th typeface (Space Grotesk)
+     2. de-black the BRUT module (light, not full-black)
+     3. soften the full-vermillion recruiting block
+     4. shrink the shouty display type
+     5. flatten the muddy dotted placeholders into clean frames
+     6. fewer hard 2px rules; drop decorative glyphs
+   Non-destructive: remove the front-matter line to revert.
+   ============================================================ */
+
+/* 1 — Retire Space Grotesk; the serif carries all display type now. */
+:root { --display: 'Newsreader', 'Source Serif Pro', Georgia, serif; }
+
+/* 2 — De-black the "BRUT" module.
+   Every child reads these scoped tokens, so recoloring the tokens
+   turns the whole dark module into the light editorial palette. */
+.mono-module {
+  --mono: var(--paper);
+  --mono-fg: var(--ink);
+  --mono-sub: var(--sub);
+  --mono-line: var(--rule);
+  --mono-mid: #3a342a;
+  --mono-card: var(--soft);
+  --mono-accent: var(--accent);
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+}
+.mono-hero h1,
+.mono-hero h2.big {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: -1px;
+}
+.mono-section h2.heading {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: -0.5px;
+}
+.mono-section h2.heading::before { content: ""; }   /* drop ▮ glyph */
+
+/* 3 — Soften the full-bleed vermillion recruiting block to soft-cream
+   with vermillion details (one accent moment, not a wall of color). */
+.recruit-block {
+  background: var(--soft);
+  color: var(--ink);
+  border-top: 1px solid var(--rule);
+}
+.recruit-block .kicker { color: var(--accent); }
+.recruit-block .card { border-color: var(--ink); }
+.recruit-block .card .sep { border-top-color: var(--rule); }
+
+/* 4 — Flatten muddy dotted placeholders into clean photo-slot frames. */
+.placeholder,
+.placeholder.dark {
+  background: var(--soft);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
+.placeholder::after { display: none; }
+.placeholder .label,
+.placeholder.dark .label {
+  color: var(--sub);
+  background: rgba(245, 239, 228, 0.92);
+}
+/* team photo slots read as intentional empty frames until headshots land */
+.team-card .photo .placeholder { background: #efe7d7; }
+
+/* 5 — Quieter rules: 2px ink hairlines → 1px warm rules in busy spots. */
+.featured-card,
+.news-card { border-top-width: 1px; border-top-color: var(--rule); }
+.team-card { border-width: 1px; border-color: var(--rule); }
+.kicker-mark::before { content: ""; }                /* drop ◆ glyph */
+
+/* 6 — Tame the shouty display sizes (desktop only, so the existing
+   mobile/tablet responsive sizes still win below 1100px). */
+@media (min-width: 1101px) {
+  .masthead-title { font-size: 46px; letter-spacing: -0.8px; }
+  .hero h1 { font-size: 62px; letter-spacing: -1px; }
+  .page-head h1 { font-size: 64px; letter-spacing: -1.2px; }
+  .section-head h2 { font-size: 38px; letter-spacing: -0.6px; }
+  .featured-card .num { font-size: 34px; }
+  .recruit-block h2 { font-size: 42px; letter-spacing: -0.8px; }
+  .mono-hero h1,
+  .mono-hero h2.big { font-size: 52px; }
+  .mono-preview .mono-hero h2.big { font-size: 42px; }
+  .mono-section h2.heading { font-size: 26px; }
+  .pubs-year, .news-year { font-size: 46px; }
+}
