@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Data & Code · Choi Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" />
+  <link rel="stylesheet" href="/test/assets/css/quiet.css" />
+  <meta name="robots" content="noindex,nofollow" />
+</head>
+<body class="quiet">
+
+  <header class="q-topbar">
+    <a class="q-brand" href="/test/quiet/">
+      <span class="q-mark"></span>
+      <span class="q-brand-name">Choi Lab</span>
+      <span class="q-brand-org">· University of Minnesota</span>
+    </a>
+    <nav class="q-nav">
+      <a href="/test/quiet/about/">About</a>
+      <a href="/test/quiet/research/">Research</a>
+      <a href="/test/quiet/publications/">Publications</a>
+      <a href="/test/quiet/team/">Team</a>
+      <a href="/test/quiet/teaching/">Teaching</a>
+      <a href="/test/quiet/news/">News</a>
+      <a href="/test/quiet/datacode/" class="active">Data &amp; Code</a>
+      <a href="/test/quiet/contact/">Contact</a>
+    </nav>
+  </header>
+
+  <main class="q-main proto-fade">
+    <section class="q-page-head">
+  <p class="q-eyebrow">Data &amp; Code</p>
+  <h1>Repos &amp; Datasets</h1>
+  <p class="q-lede">Every featured paper ships with a repo and, where licensable, a dataset. Stars and last-commit dates are cached at build time. If a paper is missing, the code is private or pending release — open an issue and we'll surface it.</p>
+</section>
+
+<!-- REPOSITORIES -->
+<section class="q-section">
+  <h2 class="q-h2" style="margin-bottom:20px;">Repositories</h2>
+
+  <div class="q-repo-row head">
+    <span>Repository</span><span>Description</span><span>Lang</span><span>★</span><span>Updated</span>
+  </div>
+
+  <a class="q-repo-row" href="https://github.com/UMN-Choi-Lab/DGMinTransportation">
+    <span class="repo">UMN-Choi-Lab/DGMinTransportation</span>
+    <span class="desc">Companion repository for the TR-C 2025 survey on deep generative models in transportation research — tutorial notebooks and code references.</span>
+    <span>Jupyter</span>
+    <span>★ 8</span>
+    <span>Jul 2025</span>
+  </a>
+
+  <a class="q-repo-row" href="https://github.com/UMN-Choi-Lab/BO4Mob">
+    <span class="repo">UMN-Choi-Lab/BO4Mob</span>
+    <span class="desc">Bayesian optimization benchmarks for high-dimensional urban mobility problems (NeurIPS 2025 Datasets &amp; Benchmarks).</span>
+    <span>Python</span>
+    <span>★ 17</span>
+    <span>Apr 2026</span>
+  </a>
+
+  <a class="q-repo-row" href="https://github.com/benchoi93/TrajGAIL">
+    <span class="repo">benchoi93/TrajGAIL</span>
+    <span class="desc">Generating urban vehicle trajectories using generative adversarial imitation learning (TR-C 2021).</span>
+    <span>Python</span>
+    <span>★ 68</span>
+    <span>Sep 2021</span>
+  </a>
+
+  <p style="margin-top:18px;font-size:13px;color:var(--sub);">
+    Canonical list at <a href="https://github.com/UMN-Choi-Lab" style="color:var(--accent);font-weight:600;">github.com/UMN-Choi-Lab ↗</a>. ★ counts &amp; dates cached 2026-05-22 · refreshed periodically, not via live API.
+  </p>
+</section>
+
+<!-- DATASETS -->
+<section class="q-section panel">
+  <h2 class="q-h2" style="margin-bottom:4px;">Datasets</h2>
+  <div class="q-datasets">
+
+    <div class="q-dataset">
+      <div class="name">MTOdata</div>
+      <div class="desc">Curated mobility &amp; transportation operations datasets, hosted at mtodata.github.io.</div>
+      <div class="meta">
+        <span>license · varies</span>
+        <span>cite · per-dataset</span>
+        <span><a class="dl" href="https://mtodata.github.io/">Open ↗</a></span>
+      </div>
+    </div>
+
+    <div class="q-dataset">
+      <div class="name">PeMS-BAY-2022</div>
+      <div class="desc">Updated PeMS-BAY traffic-speed dataset (Bay Area, 2022) — a refresh of the widely-used PeMS-BAY benchmark for spatiotemporal forecasting.</div>
+      <div class="meta">
+        <span>license · open</span>
+        <span>cite · UMN Choi Lab</span>
+        <span><a class="dl" href="https://github.com/UMN-Choi-Lab/PeMS-BAY-2022">Open ↗</a></span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- REPRODUCIBILITY -->
+<section class="q-section">
+  <h2 class="q-h2" style="margin-bottom:16px;">Reproducibility</h2>
+  <p style="font-size:15px;color:var(--sub);margin:0 0 4px;">We commit to the following for every released repo:</p>
+  <ul class="q-checklist">
+    <li class="done">Pinned dependencies · requirements.txt or environment.yml</li>
+    <li class="done">Single-command training entrypoint · scripts/train.sh</li>
+    <li class="done">Single-command evaluation · scripts/eval.sh</li>
+    <li class="done">Pre-trained checkpoints when license permits</li>
+    <li class="done">Dataset DOI or download script</li>
+    <li class="pending">Hardware &amp; wall-clock from the paper (partial)</li>
+    <li class="pending">Hyperparameter search logs (partial)</li>
+  </ul>
+  <p style="margin-top:20px;font-size:13px;color:var(--sub);">
+    Issues for missing artifacts: file at <a href="https://github.com/UMN-Choi-Lab" style="color:var(--accent);font-weight:600;">github.com/UMN-Choi-Lab</a>/&lt;repo&gt;/issues — tag with <strong style="color:var(--accent);">repro</strong>.
+  </p>
+</section>
+
+  </main>
+
+  <footer class="q-footer">
+    <span>© 2026 Choi Lab · CEGE · University of Minnesota</span>
+    <span class="q-foot-links">
+      <a href="https://scholar.google.com/citations?user=tyLWFk4AAAAJ">Scholar</a>
+      <a href="https://github.com/UMN-Choi-Lab">GitHub</a>
+      <a href="/test/assets/CV_SJCHOI_231114.pdf">CV</a>
+    </span>
+  </footer>
+
+  <script src="/test/assets/js/editorial.js" defer></script>
+</body>
+</html>
