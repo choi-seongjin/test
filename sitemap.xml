@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!-- Pages: 35 links with priority=0.3, changefreq=monthly -->
+<!-- Pages: 36 links with priority=0.3, changefreq=monthly -->
 
 	
 	<url>
 	<loc>https://choi-seongjin.github.io/test/404.html</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -22,7 +22,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/about/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -37,7 +37,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/news</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -54,7 +54,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/atom.xml</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -71,7 +71,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/changelog/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -86,7 +86,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/datasetcode/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -101,7 +101,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/contact/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -116,7 +116,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/datacode/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -131,7 +131,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/feed.xml</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -146,7 +146,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/gallary/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -161,7 +161,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/humans.txt</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -176,7 +176,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/blog/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -191,7 +191,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -206,7 +206,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/info/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -221,7 +221,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/news/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -236,7 +236,22 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/publications/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
+	
+	
+		<changefreq>monthly</changefreq>
+	
+	
+		<priority>0.3</priority>
+	
+	</url>
+	
+
+	
+	<url>
+	<loc>https://choi-seongjin.github.io/test/quiet/</loc>
+	
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -251,7 +266,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/redirect-page/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -266,7 +281,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/research/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -281,7 +296,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/robots.txt</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -300,7 +315,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/search/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -315,7 +330,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/sitemap.xml</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -332,7 +347,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/teaching/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -347,7 +362,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/team/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -362,7 +377,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/blog/page2/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -377,7 +392,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/blog/page3/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -392,7 +407,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/blog/page4/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -407,7 +422,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/blog/page5/</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>
@@ -422,7 +437,7 @@
 	<url>
 	<loc>https://choi-seongjin.github.io/test/feed.xml</loc>
 	
-		<lastmod>2026-06-03T15:01:50+00:00</lastmod>
+		<lastmod>2026-06-03T15:14:40+00:00</lastmod>
 	
 	
 		<changefreq>monthly</changefreq>

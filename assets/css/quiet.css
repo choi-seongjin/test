@@ -1,0 +1,150 @@
+/* ============================================================
+   QUIET — Choi Lab. Swiss-minimal, image-forward.
+   From design_handoff_quiet/README.md. Accent = UMN maroon + gold.
+   White, generous whitespace, ONE accent, two fonts
+   (Hanken Grotesk UI/body + Spectral serif display). Flat, no shadows.
+   ============================================================ */
+
+:root {
+  --bg: #ffffff;
+  --panel: #f7f7f4;
+  --ink: #16181d;
+  --sub: #6c6f78;
+  --line: #e7e6e0;
+  --accent: #7a0019;          /* UMN maroon */
+  --accent-soft: #f4e8ea;     /* maroon tint (number chips) */
+  --gold: #ffcc33;            /* decorative ONLY — never text */
+
+  --sans: 'Hanken Grotesk', system-ui, -apple-system, sans-serif;
+  --serif: 'Spectral', Georgia, serif;
+  --gutter: 56px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+body.quiet { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--sans);
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  display: flex; flex-direction: column; min-height: 100vh; }
+.quiet img { max-width: 100%; height: auto; display: block; }
+.quiet a { color: inherit; text-decoration: none; transition: opacity .15s; }
+.quiet a:hover { opacity: 0.7; }
+.q-main { flex: 1 0 auto; }
+
+/* entrance fade — the only motion besides link hover */
+@keyframes q-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.proto-fade { animation: q-in .35s cubic-bezier(.2,.7,.3,1) both; }
+
+/* --- TOP BAR --- */
+.q-topbar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 20px var(--gutter); border-bottom: 1px solid var(--line);
+}
+.q-brand { display: flex; align-items: center; gap: 12px; }
+.q-brand:hover { opacity: 1; }
+.q-mark {
+  width: 26px; height: 26px; border-radius: 6px; background: var(--accent);
+  /* a single gold corner — the one decorative use of gold */
+  background-image: linear-gradient(135deg, transparent 62%, var(--gold) 62%);
+  flex: 0 0 auto;
+}
+.q-brand-name { font-weight: 600; font-size: 16px; letter-spacing: -0.2px; }
+.q-brand-org { color: var(--sub); font-size: 14px; }
+.q-nav { display: flex; gap: 26px; font-size: 14.5px; flex-wrap: wrap; }
+.q-nav a { color: var(--sub); }
+.q-nav a.active { color: var(--ink); font-weight: 600; }
+
+/* --- SECTIONS --- */
+.q-section { padding: 48px var(--gutter) 64px; }
+.q-section.panel { background: var(--panel); border-top: 1px solid var(--line); }
+.q-hero { padding: 84px var(--gutter) 64px; max-width: 1100px; }
+.q-sec-head { display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 28px; gap: 24px; flex-wrap: wrap; }
+.q-sec-head h2, .q-h2 {
+  font-family: var(--serif); font-weight: 500; font-size: 32px; margin: 0; letter-spacing: -0.5px;
+}
+.q-more { font-size: 14.5px; color: var(--accent); font-weight: 600; }
+
+/* --- HERO --- */
+.q-eyebrow { font-size: 15px; color: var(--accent); font-weight: 600; letter-spacing: 0.2px; margin: 0 0 22px; }
+.q-hero h1 {
+  font-family: var(--serif); font-weight: 500; font-size: 72px; line-height: 1.05;
+  letter-spacing: -1.5px; margin: 0; max-width: 980px;
+}
+.q-hero h1 em { font-style: italic; color: var(--accent); }
+.q-lede { font-size: 21px; line-height: 1.55; color: var(--sub); margin: 28px 0 0; max-width: 720px; text-wrap: pretty; }
+.q-btn-row { display: flex; gap: 14px; margin-top: 34px; flex-wrap: wrap; }
+.q-btn { padding: 13px 22px; border-radius: 8px; font-weight: 600; font-size: 15px; }
+.q-btn.primary { background: var(--accent); color: #fff; }
+.q-btn.primary:hover { opacity: 0.9; }
+.q-btn.secondary { border: 1px solid var(--line); color: var(--ink); }
+
+/* --- RESEARCH AREAS --- */
+.q-areas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+.q-area-chip {
+  width: 38px; height: 38px; border-radius: 9px; background: var(--accent-soft);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--accent); font-weight: 700; font-size: 15px; margin-bottom: 16px;
+}
+.q-area h3 { font-size: 18.5px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.2px; }
+.q-area p { font-size: 14.5px; line-height: 1.55; color: var(--sub); margin: 0; text-wrap: pretty; }
+
+/* --- PROJECT CARDS --- */
+.q-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.q-card { background: var(--bg); border-radius: 14px; overflow: hidden; border: 1px solid var(--line); display: block; }
+.q-card:hover { opacity: 1; }
+.q-card .body { padding: 16px 18px 20px; }
+.q-card .tag { font-size: 12px; color: var(--accent); font-weight: 700; letter-spacing: 0.3px; text-transform: uppercase; }
+.q-card h3 { font-size: 19px; font-weight: 600; margin: 6px 0 6px; letter-spacing: -0.3px; }
+.q-card p { font-size: 14px; line-height: 1.5; color: var(--sub); margin: 0; text-wrap: pretty; }
+.q-card .stars { font-size: 12.5px; color: var(--sub); margin-top: 10px; font-weight: 600; }
+
+/* --- FIGURE / PHOTO PLACEHOLDERS --- */
+.q-fig {
+  position: relative; overflow: hidden; border-radius: 12px;
+  background: linear-gradient(160deg, #dfe0ea 0%, #cdcedd 100%);
+}
+.q-fig::after { content: ""; position: absolute; inset: 0; opacity: 0.5;
+  background: radial-gradient(circle at 70% 25%, rgba(255,255,255,.6), transparent 55%); }
+.q-fig .cap { position: absolute; left: 12px; bottom: 10px; font-size: 11px; color: var(--sub); letter-spacing: 0.3px; z-index: 1; }
+.q-card .q-fig { height: 150px; border-radius: 0; }
+
+/* --- RECENT PUBLICATION --- */
+.q-pub { display: grid; grid-template-columns: 1.1fr 1fr; gap: 44px; align-items: center; }
+.q-pub .q-fig { height: 320px; }
+.q-pub .venue { font-size: 13.5px; color: var(--accent); font-weight: 600; }
+.q-pub h3 { font-family: var(--serif); font-weight: 500; font-size: 30px; line-height: 1.2; margin: 10px 0 14px; letter-spacing: -0.5px; }
+.q-pub p { font-size: 16px; line-height: 1.6; color: var(--sub); margin: 0; text-wrap: pretty; }
+.q-pub .links { display: flex; gap: 18px; margin-top: 22px; font-size: 14.5px; font-weight: 600; }
+.q-pub .links a { color: var(--accent); }
+
+/* --- TEAM --- */
+.q-team { display: grid; grid-template-columns: repeat(6, 1fr); gap: 20px; }
+.q-team .q-fig { aspect-ratio: 1 / 1; }
+.q-person h3 { font-size: 15px; font-weight: 600; margin: 12px 0 2px; letter-spacing: -0.2px; }
+.q-person .role { font-size: 12.5px; color: var(--accent); font-weight: 600; }
+.q-person .sub { font-size: 12.5px; color: var(--sub); margin-top: 2px; line-height: 1.4; }
+
+/* --- FOOTER --- */
+.q-footer { flex: 0 0 auto; padding: 40px var(--gutter); border-top: 1px solid var(--line);
+  display: flex; justify-content: space-between; color: var(--sub); font-size: 14px; gap: 16px; flex-wrap: wrap; }
+.q-foot-links { display: flex; gap: 18px; }
+
+/* --- RESPONSIVE --- */
+@media (max-width: 1100px) {
+  :root { --gutter: 36px; }
+  .q-hero h1 { font-size: 56px; letter-spacing: -1.2px; }
+  .q-areas { grid-template-columns: repeat(3, 1fr); }
+  .q-cards { grid-template-columns: repeat(2, 1fr); }
+  .q-team { grid-template-columns: repeat(4, 1fr); }
+  .q-pub { grid-template-columns: 1fr; }
+  .q-pub .q-fig { height: 240px; }
+}
+@media (max-width: 680px) {
+  :root { --gutter: 20px; }
+  .q-hero { padding: 56px var(--gutter) 44px; }
+  .q-hero h1 { font-size: 40px; letter-spacing: -0.8px; }
+  .q-lede { font-size: 18px; }
+  .q-areas, .q-cards { grid-template-columns: 1fr; }
+  .q-team { grid-template-columns: repeat(2, 1fr); }
+  .q-nav { gap: 16px; font-size: 13px; }
+  .q-brand-org { display: none; }
+}

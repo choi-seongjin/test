@@ -1,0 +1,46 @@
+// Shared content for all 4 directions — pulled from the real site, slightly tightened.
+window.SITE = {
+  name: "Seongjin Choi",
+  role: "Assistant Professor",
+  dept: "Civil, Environmental, and Geo-Engineering",
+  org: "University of Minnesota, Twin Cities",
+  shortOrg: "UMN",
+  email: "chois@umn.edu",
+  bio: "I lead research at the intersection of urban mobility, spatiotemporal AI, and connected automated vehicles — building models that turn messy city data into operational insight.",
+  bioLong: "I'm an Assistant Professor in Civil, Environmental, and Geo-Engineering at the University of Minnesota, Twin Cities. Previously a postdoctoral researcher at McGill with Lijun Sun, and PhD at KAIST with Hwasoo Yeo. My work fuses urban mobility data analytics, spatiotemporal modeling, and deep generative AI in service of more sustainable, efficient transportation systems.",
+  topics: [
+    "Urban mobility data analytics",
+    "Spatiotemporal forecasting & imputation",
+    "Generative AI for transportation data",
+    "Reinforcement learning for CAV / C-ITS",
+    "Deep learning in transportation",
+  ],
+  nav: ["Home", "About", "Team", "Research", "Publications", "Teaching", "News", "Data & Code", "Contact"],
+  recruiting: {
+    title: "Recruiting · PhD & Postdoc · Fall 2026",
+    body: "Looking for students excited about machine learning for urban mobility. CV + research statement + transcript to chois@umn.edu — subject line: \"Prospective PhD student [Your name]\".",
+  },
+  news: [
+    { date: "2026·01·12", tag: "Conference", title: "8 papers at TRB 2026", body: "Our lab presented 8 papers at the 105th Transportation Research Board Annual Meeting in Washington, D.C. — covering generative AI, LLMs, and optimization for transportation sensing." },
+    { date: "2025·04·25", tag: "Invited Talk", title: "Generative AI for Transportation Operations · NC A&T", body: "Invited talk at the Department of Civil, Architectural, and Environmental Engineering, North Carolina A&T State University." },
+    { date: "2025·04·24", tag: "Invited Talk", title: "Generative AI for Transportation Operations · NC State", body: "Invited talk at NC State CCEE on generative AI for transportation operations." },
+    { date: "2025·04·20", tag: "Publication", title: "A Gentle Introduction & Tutorial on Deep Generative Models in Transportation Research", body: "Survey published in Transportation Research Part C — a tutorial-style entry point into deep generative modeling for our field." },
+    { date: "2025·03·07", tag: "Publication", title: "Probabilistic Traffic Forecasting with Dynamic Regression", body: "Accepted to Transportation Science." },
+  ],
+  pubs: [
+    { year: 2025, venue: "Transportation Research Part C", title: "A Gentle Introduction & Tutorial on Deep Generative Models in Transportation Research", authors: "Choi, S., et al.", tags: ["Survey", "GenAI"] },
+    { year: 2025, venue: "Transportation Science", title: "Probabilistic Traffic Forecasting with Dynamic Regression", authors: "Choi, S., Sun, L.", tags: ["Forecasting"] },
+    { year: 2024, venue: "Transportation Research Part C", title: "Diffusion-based Generation of Trajectory Data for Urban Mobility", authors: "Choi, S., Kim, J., Sun, L.", tags: ["GenAI", "Trajectories"] },
+    { year: 2024, venue: "IEEE T-ITS", title: "Cooperative Lane-Changing of Connected Vehicles via Multi-Agent RL", authors: "Park, H., Choi, S., Yeo, H.", tags: ["CAV", "RL"] },
+    { year: 2024, venue: "Transportation Research Part B", title: "Low-Rank Tensor Completion for Spatiotemporal Traffic Imputation", authors: "Choi, S., Sun, L.", tags: ["Imputation"] },
+    { year: 2023, venue: "NeurIPS", title: "Graph Diffusion Models for Origin-Destination Flow Estimation", authors: "Lee, M., Choi, S.", tags: ["GenAI", "OD"] },
+    { year: 2023, venue: "Transportation Science", title: "Bayesian Nonparametric Calibration of Car-Following Models", authors: "Choi, S., Yeo, H.", tags: ["Bayesian"] },
+    { year: 2022, venue: "IEEE T-ITS", title: "Attention-based Sequence-to-Sequence Models for Network-wide Traffic Speed Prediction", authors: "Choi, S., et al.", tags: ["Forecasting"] },
+  ],
+  stats: [
+    { k: "Publications", v: "40+" },
+    { k: "h-index", v: "14" },
+    { k: "Citations", v: "1.2k" },
+    { k: "Open positions", v: "2" },
+  ],
+};
