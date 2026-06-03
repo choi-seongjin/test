@@ -163,6 +163,7 @@ body.quiet { margin: 0; background: var(--bg); color: var(--ink); font-family: v
 .q-prose h3 { font-family: var(--serif); font-weight: 500; font-size: 21px; margin: 28px 0 10px; }
 .q-prose p { font-size: 17px; line-height: 1.65; color: #33363d; margin: 0 0 16px; text-wrap: pretty; }
 .q-prose ul { font-size: 15px; line-height: 1.7; color: var(--sub); padding-left: 18px; margin: 0 0 16px; }
+.q-pi-photo { width: 100%; border-radius: 14px; border: 1px solid var(--line); display: block; margin-bottom: 18px; }
 .q-facts { border: 1px solid var(--line); border-radius: 14px; padding: 22px; background: var(--panel); }
 .q-facts .head { font-size: 12px; font-weight: 700; letter-spacing: 0.3px; text-transform: uppercase; color: var(--accent); margin: 0 0 10px; }
 .q-facts ul { list-style: none; padding: 0; margin: 0; font-size: 14px; line-height: 1.95; color: var(--ink); }
