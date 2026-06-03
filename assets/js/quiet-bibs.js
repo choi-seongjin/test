@@ -1,5 +1,4 @@
-/* Full-detail BibTeX harvested + verified (Crossref / Semantic Scholar / arXiv).
-   Cite prefers these; entries absent here fall back to a generated BibTeX. */
+/* Verified via refcheck-equivalent lookups (Crossref / arXiv). */
 window.QUIET_BIBS = {
 "choi2026escooter": `@misc{choi2026escooter,
   author = {Choi, Seongjin and Yoo, Sunbin and Lee, Sugie},
@@ -16,9 +15,10 @@ window.QUIET_BIBS = {
   archivePrefix = {arXiv}
 }`,
 "kim2026nextsim": `@article{kim2026nextsim,
-  author = {Kim, Yumin and Choi, Seongjin and Jeon, Seungjae and Yeo, Hwasoo},
+  author = {Kim, Yeeun and Choi, Seongjin and Jeon, Sujae and Yeo, Hwasoo},
   title = {NextSim: Multi-Level Traffic Simulation for Urban Networks Using Dynamic Level Assignment},
   journal = {IEEE Transactions on Intelligent Transportation Systems},
+  pages = {1--15},
   doi = {10.1109/TITS.2026.3671220},
   year = {2026}
 }`,
@@ -26,6 +26,7 @@ window.QUIET_BIBS = {
   author = {Cho, Jungwoo and Choi, Seongjin},
   title = {Toward Safe Integration of UAM in Terminal Airspace: UAM Route Feasibility Assessment Using Probabilistic Aircraft Trajectory Prediction},
   journal = {IEEE Transactions on Intelligent Transportation Systems},
+  pages = {1--10},
   doi = {10.1109/TITS.2026.3651399},
   year = {2026}
 }`,
@@ -38,7 +39,7 @@ window.QUIET_BIBS = {
   archivePrefix = {arXiv}
 }`,
 "ryu2026multi": `@inproceedings{ryu2026multi,
-  author = {Ryu, Seunghee and Kang, Seungjae and Choi, Seongjin},
+  author = {Ryu, Seunghee and Kang, Seungmo and Choi, Seongjin},
   title = {Multi-Fidelity Surrogate-Based Optimization for Passenger-Centric Bus Berth Allocation in Urban Transit Hubs},
   booktitle = {Transportation Research Board 105th Annual Meeting},
   year = {2026}
@@ -60,7 +61,7 @@ window.QUIET_BIBS = {
   archivePrefix = {arXiv}
 }`,
 "kwon2026trafficnetqa": `@inproceedings{kwon2026trafficnetqa,
-  author = {Kwon, Doyeon and Kang, Seungjae and Choi, Seongjin},
+  author = {Kwon, Donghoon and Kang, Seungmo and Choi, Seongjin},
   title = {TrafficNetQA: Question Answering Benchmark for Evaluating LLM Performance on Traffic Network Files},
   booktitle = {Transportation Research Board 105th Annual Meeting},
   year = {2026}
@@ -112,7 +113,7 @@ window.QUIET_BIBS = {
   year = {2025}
 }`,
 "ryu2025bo4mob": `@inproceedings{ryu2025bo4mob,
-  author = {Ryu, Seunghee and Kwon, Doyeon and Choi, Seongjin and Deshwal, Aryan and Kang, Seungjae and Osorio, Carolina},
+  author = {Ryu, Seunghee and Kwon, Donghoon and Choi, Seongjin and Deshwal, Aryan and Kang, Seungmo and Osorio, Carolina},
   title = {BO4Mob: Bayesian Optimization Benchmarks for High-Dimensional Urban Mobility Problem},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track},
   year = {2025},
@@ -123,8 +124,9 @@ window.QUIET_BIBS = {
   author = {Jiang, Sicong and Huang, Zilin and Qian, Kangan and Luo, Ziang and Zhu, Tianze and Zhong, Yang and Tang, Yihong and Kong, Menglin and Wang, Yunlong and Jiao, Siwen and Ye, Hao and Sheng, Zihao and Zhao, Xin and Wen, Tuopu and Fu, Zheng and Chen, Sikai and Jiang, Kun and Yang, Diange and Choi, Seongjin and Sun, Lijun},
   title = {A Survey on Vision-Language-Action Models for Autonomous Driving},
   booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshops},
-  pages = {4524--4536},
-  year = {2025}
+  year = {2025},
+  eprint = {2506.24044},
+  archivePrefix = {arXiv}
 }`,
 "liu2025adversarial": `@inproceedings{liu2025adversarial,
   author = {Liu, Fuqiang and Jiang, Sicong and Miranda-Moreno, Luis and Choi, Seongjin and Sun, Lijun},
@@ -139,16 +141,16 @@ window.QUIET_BIBS = {
   title = {A Customizable Neural Network Based Framework for Autonomous Vehicle Control with Human-Guided Learning},
   booktitle = {2024 IEEE 27th International Conference on Intelligent Transportation Systems (ITSC)},
   pages = {3064--3069},
+  doi = {10.1109/ITSC58415.2024.10919962},
   year = {2024}
 }`,
-"cheong2024weaver": `@article{cheong2024weaver,
+"cheong2024weaver": `@misc{cheong2024weaver,
   author = {Cheong, Christopher and Davis, Gary and Choi, Seongjin},
   title = {Weaver: A Spatio-Temporal Deep Learning Model Architecture Based on the Mixed Kronecker Matrix-Vector Identity},
-  journal = {Transportation Research Part C: Emerging Technologies},
-  note = {Under review},
-  year = {2024},
+  note = {Under review, Transportation Research Part C},
   eprint = {2511.08888},
-  archivePrefix = {arXiv}
+  archivePrefix = {arXiv},
+  year = {2024}
 }`,
 "choi2023optimal": `@article{choi2023optimal,
   author = {Choi, Seongjin and Lee, Jinwoo},
@@ -175,7 +177,7 @@ window.QUIET_BIBS = {
   year = {2023}
 }`,
 "lin2023evaluation": `@inproceedings{lin2023evaluation,
-  author = {Lin, Tengfeng and Choi, Seongjin and Jin, Zhixiong and Yeo, Hwasoo},
+  author = {Lin, Tengfeng and Jin, Zhixiong and Choi, Seongjin and Yeo, Hwasoo},
   title = {Evaluation of Pedestrian's Potential Risk at Non-signalized Intersection Based on Predicted Post-Encroachment Time using Deep Learning Methods},
   booktitle = {Transportation Research Board 102nd Annual Meeting},
   year = {2023},
@@ -230,7 +232,7 @@ window.QUIET_BIBS = {
   journal = {Procedia Computer Science},
   volume = {170},
   pages = {354--361},
-  doi = {10.1016/j.procs.2020.03.094},
+  doi = {10.1016/j.procs.2020.03.058},
   year = {2020}
 }`,
 "choi2020incorporating": `@inproceedings{choi2020incorporating,
@@ -266,12 +268,13 @@ window.QUIET_BIBS = {
   doi = {10.1109/ITSC.2019.8917122},
   year = {2019}
 }`,
-"kim2019agent": `@inproceedings{kim2019agent,
+"kim2019agent": `@article{kim2019agent,
   author = {Kim, Yeeun and Choi, Seongjin and Park, Jihyuk and Yeo, Hwasoo},
   title = {Agent-based Mesoscopic Urban Traffic Simulation based on Multi-lane Cell Transmission Model},
-  booktitle = {The 10th International Conference on Ambient Systems, Networks and Technologies (ANT)},
-  series = {Procedia Computer Science},
+  journal = {Procedia Computer Science},
   volume = {151},
+  pages = {240--247},
+  doi = {10.1016/j.procs.2019.04.035},
   year = {2019}
 }`,
 "choi2019deep": `@article{choi2019deep,
@@ -281,6 +284,7 @@ window.QUIET_BIBS = {
   volume = {37},
   number = {5},
   pages = {422--429},
+  doi = {10.7470/jkst.2019.37.5.422},
   year = {2019}
 }`,
 "kim2019study": `@article{kim2019study,
@@ -290,6 +294,7 @@ window.QUIET_BIBS = {
   volume = {37},
   number = {1},
   pages = {39--50},
+  doi = {10.7470/jkst.2019.37.1.039},
   year = {2019}
 }`,
 "choi2018network": `@article{choi2018network,
@@ -317,6 +322,7 @@ window.QUIET_BIBS = {
   volume = {36},
   number = {4},
   pages = {263--273},
+  doi = {10.7470/jkst.2018.36.4.263},
   year = {2018}
 }`,
 "choi2017microscopic": `@article{choi2017microscopic,
@@ -325,6 +331,7 @@ window.QUIET_BIBS = {
   journal = {Transportation Research Procedia},
   volume = {21},
   pages = {98--109},
+  doi = {10.1016/j.trpro.2017.03.081},
   year = {2017}
 }`,
 "choi2017traffic": `@inproceedings{choi2017traffic,
