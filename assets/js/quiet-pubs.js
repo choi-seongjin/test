@@ -5,7 +5,7 @@
   function fallbackCopy(text,msg){ try{ var ta=document.createElement('textarea'); ta.value=text; ta.style.position='fixed'; ta.style.top='-1000px'; document.body.appendChild(ta); ta.focus(); ta.select(); document.execCommand('copy'); document.body.removeChild(ta); toast(msg); }catch(e){ toast('Copy failed'); } }
   function copy(text,msg){ if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text).then(function(){ toast(msg); }, function(){ fallbackCopy(text,msg); }); } else { fallbackCopy(text,msg); } }
   function fmtAuthors(s){ s=s.replace(/\(incl\.[^)]*\)/g,'').replace(/,?\s*et al\.?/g,'').trim(); return s.replace(/\.,\s+/g,'. and '); }
-  function bib(e){
+  function gen(e){
     var id=e.id, type=e.getAttribute('data-type')||'', year=e.getAttribute('data-year')||'';
     var h=e.querySelector('h3'), title=h?h.textContent.trim():'';
     var au=e.querySelector('.authors'), aut=au?fmtAuthors(au.textContent):'';
@@ -20,18 +20,23 @@
     L.push('  year = {'+year+'}','}');
     return L.join('\n');
   }
+  function bib(e){ if(window.QUIET_BIBS && window.QUIET_BIBS[e.id]) return window.QUIET_BIBS[e.id]; return gen(e); }
   ready(function(){
     var entries=document.querySelectorAll('.pub-entry');
     if(!entries.length) return;
     Array.prototype.forEach.call(entries, function(e){
+      var h=e.querySelector('h3');
+      var pub=e.querySelector('a[href*="doi.org"]') || e.querySelector('a[href*="arxiv.org"]');
+      if(h && pub && !h.querySelector('a')){
+        var link=document.createElement('a'); link.href=pub.getAttribute('href'); link.target='_blank'; link.rel='noopener'; link.className='pub-title-link';
+        while(h.firstChild){ link.appendChild(h.firstChild); }
+        h.appendChild(link);
+      }
       var links=e.querySelector('.links'); if(!links || links.querySelector('.cite-row')) return;
       var row=document.createElement('div'); row.className='cite-row';
       var c=document.createElement('button'); c.type='button'; c.className='cite-btn'; c.textContent='Cite';
       c.addEventListener('click', function(){ copy(bib(e),'BibTeX copied'); });
       row.appendChild(c);
-      var p=document.createElement('button'); p.type='button'; p.className='perma-btn'; p.title='Copy link to this paper'; p.setAttribute('aria-label','Copy link to this paper'); p.textContent='\u{1F517}';
-      p.addEventListener('click', function(){ copy(location.origin+location.pathname+'#'+e.id,'Link copied'); });
-      row.appendChild(p);
       links.appendChild(row);
       var a=e.querySelector('.anchor'); if(a) a.style.display='none';
     });
