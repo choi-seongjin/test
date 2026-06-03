@@ -350,12 +350,12 @@
   </div>
 </article>
 
-<article class="pub-entry" id="cheong2024weaver" data-year="2024" data-type="conference" data-tags="Forecasting">
+<article class="pub-entry" id="cheong2024weaver" data-year="2024" data-type="preprint" data-tags="Forecasting">
   <div class="num">04</div>
   <div>
-    <div class="meta"><em>103rd Transportation Research Board Annual Meeting</em> · Conference · Forecasting</div>
+    <div class="meta"><em>Transportation Research Part C: Emerging Technologies</em> · Preprint / Under review · Forecasting</div>
     <h3>Weaver: A Spatio-Temporal Deep Learning Model Architecture Based on the Mixed Kronecker Matrix-Vector Identity</h3>
-    <div class="authors"><strong class="lab">Cheong, C.</strong>, <strong>Choi, S.</strong></div>
+    <div class="authors"><strong class="lab">Cheong, C.</strong>, Davis, G., <strong>Choi, S.</strong></div>
   </div>
   <div class="links"><div class="row"><a class="link-underline">PDF</a></div>
     <a href="#cheong2024weaver" class="anchor">#cheong2024weaver</a>
@@ -765,6 +765,43 @@
 
 </div>
 <!-- /data-pubs-root -->
+
+<div id="q-toast" class="q-toast" role="status" aria-live="polite"></div>
+<script>
+(function () {
+  function toast(m){var t=document.getElementById('q-toast');if(!t)return;t.textContent=m;t.classList.add('show');clearTimeout(t._h);t._h=setTimeout(function(){t.classList.remove('show');},1500);}
+  function copy(text,msg){if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(text).then(function(){toast(msg);},function(){toast('Copy failed');});}else{toast('Copy not supported');}}
+  function fmtAuthors(s){return s.replace(/\s*\(incl\.[^)]*\)/,'').replace(/,?\s*et al\.?/,'').trim().split(/(?<=\.),\s+/).join(' and ');}
+  function bib(e){
+    var id=e.id,type=e.getAttribute('data-type')||'',year=e.getAttribute('data-year')||'';
+    var h=e.querySelector('h3'),title=h?h.textContent.trim():'';
+    var au=e.querySelector('.authors'),aut=au?fmtAuthors(au.textContent):'';
+    var vEl=e.querySelector('.meta em'),venue=vEl?vEl.textContent.trim():'';
+    var doiA=e.querySelector('a[href*="doi.org"]'),doi=doiA?doiA.getAttribute('href').replace(/https?:\/\/doi\.org\//,''):'';
+    var et=type==='conference'?'inproceedings':(type==='preprint'?'misc':'article');
+    var L=['@'+et+'{'+id+',','  author = {'+aut+'},','  title = {'+title+'},'];
+    if(type==='conference')L.push('  booktitle = {'+venue+'},');
+    else if(type==='preprint')L.push('  howpublished = {'+venue+'},');
+    else L.push('  journal = {'+venue+'},');
+    if(doi)L.push('  doi = {'+doi+'},');
+    L.push('  year = {'+year+'}','}');
+    return L.join('\n');
+  }
+  document.querySelectorAll('.pub-entry').forEach(function(e){
+    var links=e.querySelector('.links');if(!links)return;
+    var row=document.createElement('div');row.className='cite-row';
+    var c=document.createElement('button');c.type='button';c.className='cite-btn';c.textContent='Cite';
+    c.addEventListener('click',function(){copy(bib(e),'BibTeX copied');});
+    row.appendChild(c);
+    var p=document.createElement('button');p.type='button';p.className='perma-btn';p.title='Copy link to this paper';p.setAttribute('aria-label','Copy link to this paper');p.textContent='\u{1F517}';
+    p.addEventListener('click',function(){copy(location.origin+location.pathname+'#'+e.id,'Link copied');});
+    row.appendChild(p);
+    links.appendChild(row);
+    var a=e.querySelector('.anchor');if(a)a.style.display='none';
+  });
+})();
+</script>
+
 
   </main>
 
