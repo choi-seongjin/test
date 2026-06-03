@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://choi-seongjin.github.io/test/sitemap.xml

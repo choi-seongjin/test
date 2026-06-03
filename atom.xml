@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="/test/assets/xslt/atom.xslt" ?>
+<?xml-stylesheet type="text/css" href="/test/assets/css/atom.css" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<id>https://choi-seongjin.github.io/test/</id>
+	<title>Seongjin Choi @UMN</title>
+	<updated>2026-06-03T14:10:38+00:00</updated>
+
+	<subtitle>UMN Choi Lab — Seongjin Choi, Assistant Professor, CEGE, University of Minnesota Twin Cities. Research on urban mobility data analytics, spatiotemporal AI, generative intelligence, vision-language-action models, and LLM-powered traffic management.</subtitle>
+
+	
+		
+		<author>
+			
+				<name>Seongjin Choi</name>
+			
+			
+				<email>chois@umn.edu</email>
+			
+			
+		</author>
+	
+
+	<link href="https://choi-seongjin.github.io/test/atom.xml" rel="self" type="application/rss+xml" />
+	<link href="https://choi-seongjin.github.io/test/" rel="alternate" type="text/html" />
+
+	<generator uri="http://jekyllrb.com" version="4.4.1">Jekyll</generator>
+
+	
+		<entry>
+			<id>https://choi-seongjin.github.io/test/news/260112</id>
+			<title>[260112] Transportation Research Board Annual Meeting 2026</title>
+			<link href="https://choi-seongjin.github.io/test/news/260112" rel="alternate" type="text/html" title="[260112] Transportation Research Board Annual Meeting 2026" />
+			<updated>2026-01-12T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary>Our lab presented 8 papers at the 105th Transportation Research Board Annual Meeting (TRB 2026) in Washington, D.C. Our research spans applications of Generative AI, large language models, and optimization for transportation sensing, estimation, and operations.</summary>
+			<content type="html" xml:base="https://choi-seongjin.github.io/test/news/260112">
+</content>
+
+			
+			
+
+			<published>2026-01-12T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://choi-seongjin.github.io/test/news/250425</id>
+			<title>[250425] Invited talk at North Carolina Agricultural and Technical State University</title>
+			<link href="https://choi-seongjin.github.io/test/news/250425" rel="alternate" type="text/html" title="[250425] Invited talk at North Carolina Agricultural and Technical State University" />
+			<updated>2025-04-25T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary>It was such a pleasure to present my works on &quot;Generative AI for Transportation Operations&quot; at the Department of Civil, Architectural, and Environmental Engineering, NC A&amp;T University. I would like to thank Prof. Venktesh Pandey for the invitation.</summary>
+			<content type="html" xml:base="https://choi-seongjin.github.io/test/news/250425">
+</content>
+
+			
+			
+
+			<published>2025-04-25T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://choi-seongjin.github.io/test/news/250424</id>
+			<title>[250424] Invited talk at North Carolina State University</title>
+			<link href="https://choi-seongjin.github.io/test/news/250424" rel="alternate" type="text/html" title="[250424] Invited talk at North Carolina State University" />
+			<updated>2025-04-24T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary>It was such a pleasure to present my works on &quot;Generative AI for Transportation Operations&quot; at the Department of Civil, Construction, and Environmental Engineering, NC State University. I would like to thank Prof. Ali Hajbabaie and Prof. Danjue Chen for the invitation.</summary>
+			<content type="html" xml:base="https://choi-seongjin.github.io/test/news/250424">
+</content>
+
+			
+			
+
+			<published>2025-04-24T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://choi-seongjin.github.io/test/news/250422</id>
+			<title>[250420] New survey paper on Deep Generative Models in Transportation Research published in Transportation Research Part C</title>
+			<link href="https://choi-seongjin.github.io/test/news/250422" rel="alternate" type="text/html" title="[250420] New survey paper on Deep Generative Models in Transportation Research published in Transportation Research Part C" />
+			<updated>2025-04-20T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary>I&apos;m thrilled to share that our latest publication, &apos;𝐀 𝐆𝐞𝐧𝐭𝐥𝐞 𝐈𝐧𝐭𝐫𝐨𝐝𝐮𝐜𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥 𝐨𝐧 𝐃𝐞𝐞𝐩 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐯𝐞 𝐌𝐨𝐝𝐞𝐥𝐬 𝐢𝐧 𝐓𝐫𝐚𝐧𝐬𝐩𝐨𝐫𝐭𝐚𝐭𝐢𝐨𝐧 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡&apos;, has just been published in Transportation Research Part C.</summary>
+			<content type="html" xml:base="https://choi-seongjin.github.io/test/news/250422">&lt;p&gt;🚀 It’s official—our new paper is live!&lt;/p&gt;
+
+&lt;p&gt;I’m thrilled to share that our latest publication, “𝐀 𝐆𝐞𝐧𝐭𝐥𝐞 𝐈𝐧𝐭𝐫𝐨𝐝𝐮𝐜𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐓𝐮𝐭𝐨𝐫𝐢𝐚𝐥 𝐨𝐧 𝐃𝐞𝐞𝐩 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐯𝐞 𝐌𝐨𝐝𝐞𝐥𝐬 𝐢𝐧 𝐓𝐫𝐚𝐧𝐬𝐩𝐨𝐫𝐭𝐚𝐭𝐢𝐨𝐧 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡”, has just been published in Transportation Research Part C. This work is a true team effort from experts around the world, including Zhixiong Jin, Seung Woo Ham, Jiwon Kim, Lijun Sun, and me. We hope this paper serves as a go-to primer on Generative AI for transportation researchers.&lt;/p&gt;
+
+&lt;p&gt;In this paper, we provide an accessible overview of Deep Generative Models (DGMs) and their applications for transportation research communities. Our paper offers a comprehensive introduction to the foundational concepts of DGMs and a review of current literature on applications of DGMs in transportation research.&lt;/p&gt;
+
+&lt;p&gt;To further support the transportation research community, we have included open-source tutorial code to help researchers apply DGMs to a variety of transportation problems, featuring two widely studied problems to assist a broad range of researchers:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Generating Household Travel Survey data using the National Household Travel Survey in Korea, and&lt;/li&gt;
+  &lt;li&gt;Generating highway traffic speed contour using I-24 MOTION data&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;🔗 Free access until July 4, 2025:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sciencedirect.com/science/article/pii/S0968090X25001494?dgcid=author&quot;&gt;https://www.sciencedirect.com/science/article/pii/S0968090X25001494?dgcid=author&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;💻 Tutorial Code repo:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/UMN-Choi-Lab/DGMinTransportation&quot;&gt;https://github.com/UMN-Choi-Lab/DGMinTransportation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+
+			
+			
+
+			<published>2025-04-20T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://choi-seongjin.github.io/test/news/250307</id>
+			<title>[250307] New publication in Transportation Science</title>
+			<link href="https://choi-seongjin.github.io/test/news/250307" rel="alternate" type="text/html" title="[250307] New publication in Transportation Science" />
+			<updated>2025-03-07T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary>I am pleased to share that my paper, &quot;Probabilistic Traffic Forecasting with Dynamic Regression,&quot; has been accepted to Transportation Science! </summary>
+			<content type="html" xml:base="https://choi-seongjin.github.io/test/news/250307">
+</content>
+
+			
+			
+
+			<published>2025-03-07T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://choi-seongjin.github.io/test/news/250225</id>
+			<title>[250225] New publication in Transportation Science</title>
+			<link href="https://choi-seongjin.github.io/test/news/250225" rel="alternate" type="text/html" title="[250225] New publication in Transportation Science" />
+			<updated>2025-02-25T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary>I&apos;m thrilled to share that our paper, &apos;Scalable Dynamic Mixture Model with Full Covariance for Probabilistic Traffic Forecasting,&apos; has been accepted for publication in Transportation Science!</summary>
+			<content type="html" xml:base="https://choi-seongjin.github.io/test/news/250225">&lt;p&gt;I’m thrilled to share that our paper, “Scalable Dynamic Mixture Model with Full Covariance for Probabilistic Traffic Forecasting,” has been accepted for publication in Transportation Science!&lt;/p&gt;
+
+&lt;p&gt;This work was part of my postdoctoral research at McGill University in collaboration with Professor Nicolas Saunier, Mr. Vincent Zheng, Professor Martin Trépanier, and Professor Lijun Sun.&lt;/p&gt;
+
+&lt;p&gt;In this study, we introduce a Dynamic Mixture Model with a Full Spatiotemporal Covariance Matrix to better capture the time-varying distribution of spatiotemporal characteristics in network traffic data.&lt;/p&gt;
+
+&lt;p&gt;To overcome the limitations of conventional MSE/MAE-based training methods, which assume an independent and isotropic Gaussian distribution, we developed a Mixture Density Network-based training method with time-varying mixture weights. Additionally, we estimate the full spatial and temporal covariance matrix during model training—while ensuring scalability to handle large spatiotemporal datasets efficiently.&lt;/p&gt;
+
+&lt;p&gt;Preprint available at: https://lnkd.in/edDfXs5y&lt;/p&gt;
+</content>
+
+			
+			
+
+			<published>2025-02-25T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://choi-seongjin.github.io/test/news/250107</id>
+			<title>[250107] Transportation Research Board Annual Meeting 2025 presentation</title>
+			<link href="https://choi-seongjin.github.io/test/news/250107" rel="alternate" type="text/html" title="[250107] Transportation Research Board Annual Meeting 2025 presentation" />
+			<updated>2025-01-07T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary>I will be presenting &quot;Weaver: A Spatio-Temporal Deep Learning Model Architecture Based on the Mixed Kronecker Matrix-Vector Identity&quot; at Transportation Research Board Annual Meeting (TRBAM 2025)</summary>
+			<content type="html" xml:base="https://choi-seongjin.github.io/test/news/250107">
+</content>
+
+			
+			
+
+			<published>2025-01-07T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://choi-seongjin.github.io/test/news/240903</id>
+			<title>[240903] TRC-30 Conference presentations</title>
+			<link href="https://choi-seongjin.github.io/test/news/240903" rel="alternate" type="text/html" title="[240903] TRC-30 Conference presentations" />
+			<updated>2024-09-03T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary>I will be presenting two papers at TRC-30: (1) Evaluating UAM Route Feasibility in Terminal Airspace via Probabilistic Aircraft Trajectory Prediction, and (2) Multi-level Traffic Simulation with Dynamic Simulation Level Assignment for Urban Network</summary>
+			<content type="html" xml:base="https://choi-seongjin.github.io/test/news/240903">
+</content>
+
+			
+			
+
+			<published>2024-09-03T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://choi-seongjin.github.io/test/news/240901</id>
+			<title>[240901] Lindong Liu and Pouya Parsa joined the group</title>
+			<link href="https://choi-seongjin.github.io/test/news/240901" rel="alternate" type="text/html" title="[240901] Lindong Liu and Pouya Parsa joined the group" />
+			<updated>2024-09-01T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary>Lindong Liu and Pouya Parsa joined the group.</summary>
+			<content type="html" xml:base="https://choi-seongjin.github.io/test/news/240901">
+</content>
+
+			
+			
+
+			<published>2024-09-01T00:00:00+00:00</published>
+		</entry>
+	
+		<entry>
+			<id>https://choi-seongjin.github.io/test/news/240621</id>
+			<title>[240621] Invited Talk at The 2nd Cho Chun Shik Graduate School of Mobility Summer Camp</title>
+			<link href="https://choi-seongjin.github.io/test/news/240621" rel="alternate" type="text/html" title="[240621] Invited Talk at The 2nd Cho Chun Shik Graduate School of Mobility Summer Camp" />
+			<updated>2024-06-21T00:00:00+00:00</updated>
+
+			
+				
+				<author>
+					
+						<name>phlow</name>
+					
+					
+					
+				</author>
+			
+			<summary>It was such a pleasure to present my works on &quot;Deep Generative Models for Transportation and Mobility Data&quot; at The 2nd Cho Chun Shik Graduate School of Mobility Summer Camp.</summary>
+			<content type="html" xml:base="https://choi-seongjin.github.io/test/news/240621">&lt;p&gt;For more information: 
+&lt;a href=&quot;http://kaistmobilitygroup.com/june-1728-2024-the-2nd-cho-chun-shik-graduate-school-of-mobility-summer-camp/&quot;&gt;http://kaistmobilitygroup.com/june-1728-2024-the-2nd-cho-chun-shik-graduate-school-of-mobility-summer-camp/&lt;/a&gt;&lt;/p&gt;
+</content>
+
+			
+			
+
+			<published>2024-06-21T00:00:00+00:00</published>
+		</entry>
+	
+</feed>
