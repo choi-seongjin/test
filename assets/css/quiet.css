@@ -257,6 +257,8 @@ body.quiet { margin: 0; background: var(--bg); color: var(--ink); font-family: v
 .pub-entry .meta em { color: var(--accent); font-style: normal; }
 .pub-entry h3 { font-family: var(--serif); font-weight: 500; font-size: 22px; line-height: 1.25; margin: 0; letter-spacing: -0.3px; }
 .pub-entry .authors { font-size: 14px; color: var(--sub); margin-top: 6px; }
+.pub-entry .authors strong { color: var(--ink); font-weight: 700; }            /* PI (Choi) — black bold */
+.pub-entry .authors strong.lab { color: var(--accent); font-weight: 700; }     /* students / lab members — maroon bold */
 .pub-entry .links { display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 600; }
 .pub-entry .links a { color: var(--accent); }
 .pub-entry .links .row { display: flex; gap: 12px; flex-wrap: wrap; }
